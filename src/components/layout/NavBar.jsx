@@ -75,7 +75,7 @@ const NavBar = () => {
               <a
                 ref={(el) => (linkRefs.current[index] = el)}
                 onClick={() => handleClick(index)}
-                className="text-xl tracking-widest flex items-center gap-2 relative"
+                className="text-xl tracking-widest flex items-center gap-2 relative cursor-pointer"
                 key={index}
                 href={`#${navlink.toLowerCase()}`}
               >

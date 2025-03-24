@@ -103,7 +103,7 @@ const Products = () => {
           initial={{ y: pos, x: "-50%" }}
           animate={{ y: pos + `rem` }}
           transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
-          className="window absolute w-[32rem] h-[20rem] left-[44%] -translate-x-[50%]"
+          className="window absolute w-[22rem] h-[20rem] left-[46%] -translate-x-[50%]"
         >
           {productItems.map((item, index) => (
             <motion.div
